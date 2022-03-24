@@ -1,0 +1,28 @@
+<template>
+  <lightning-card>
+    <template if:true={accounts.data}>
+      <div>
+        <lightning-datatable
+          class="table"
+          key-field="Id"
+          data={accounts.data}
+          columns={columns}
+          style="visibility: hidden"
+        >
+        </lightning-datatable>
+      </div>
+      <lightning-button-group>
+        <lightning-button
+          variant="success"
+          label="Get Record Infos"
+          onclick={ShowTable}
+        ></lightning-button>
+        <lightning-button
+          variant="destructive"
+          label="Close"
+          onclick={closeTable}
+        ></lightning-button>
+      </lightning-button-group>
+    </template>
+  </lightning-card>
+</template>

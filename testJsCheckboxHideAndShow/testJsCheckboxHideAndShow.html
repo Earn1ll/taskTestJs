@@ -1,0 +1,24 @@
+<template>
+    <div class="cardArea" title="Show/hide infos">
+        <div>
+          <div class="item">
+            <input type="checkbox" onchange={changeFirstCard} class="check" />
+            <lightning-card class="firstCard" title="First card"> <p>first card</p> </lightning-card>
+          </div>
+          <div class="item">
+            <input type="checkbox" onchange={changeSecondCard} class="check" />
+            <lightning-card class="secondCard" title="Second card"> <p>second card</p> </lightning-card>
+          </div>
+        </div>
+      </div>
+      <div class="items">
+        <div class="item">
+          <input class="checkbox" type="checkbox" />
+          <input type="text" placeholder="Input 1" />
+        </div>
+        <div class="item">
+          <input class="checkbox" type="checkbox" />
+          <input type="text" placeholder="Input 2" />
+        </div>
+      </div>
+</template>

@@ -1,0 +1,19 @@
+
+.cardArea {
+    display: flex;
+    justify-content: space-around;
+}
+.checboxes {
+    display: block;
+    position: static;
+}
+.firstCard {
+    display: flex;
+    justify-content: space-around;
+    visibility:visible;
+}
+.secondCard {
+    display: flex;
+    justify-content: space-around;  
+    visibility:visible;
+}

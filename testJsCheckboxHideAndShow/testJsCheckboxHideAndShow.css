@@ -1,0 +1,20 @@
+.item {
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+    
+.checkbox {
+  cursor: pointer;
+}
+
+.checkbox:checked ~ input {
+  visibility: hidden;
+}
+.firstCard {
+  width: 300px;
+}
+.secondCard {
+  width: 300px;
+}
